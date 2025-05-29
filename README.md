@@ -15,6 +15,9 @@ This Weather App is a responsive web application built using React.js that provi
 
 The project was developed as part of my internship at Codtech IT Solutions to demonstrate proficiency in React.js, API integration, and modern frontend development practices. The application showcases how to build interactive web applications with dynamic data fetching and state management.
 
+![Screenshot 2025-05-29 152938](https://github.com/user-attachments/assets/862598e4-4ddb-4533-a54e-b3e7e32feddb)
+
+
 ### Key Features:
 - Real-time weather data display
 - Search functionality for cities worldwide
@@ -60,9 +63,7 @@ The application follows a component-based architecture with these main component
 2. **Header Component** - Contains the application title and theme toggle.
 3. **Search Component** - Handles city search input and submission.
 4. **WeatherDisplay Component** - Main container for current weather information.
-5. **Forecast Component** - Displays the 5-day weather forecast.
-6. **UnitToggle Component** - Allows switching between Celsius and Fahrenheit.
-7. **Error Component** - Displays error messages for invalid searches or API issues.
+5. **Error Component** - Displays error messages for invalid searches or API issues.
 
 The state management follows React's built-in state hooks pattern, with context API used for sharing global states like temperature units across components. All API calls are centralized in service modules for better separation of concerns.
 
